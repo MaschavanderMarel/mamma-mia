@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+    text-align: center;
+    font-family:cursive ;
+}
+
+h1{
+    color:purple;
+}
+
+button{
+    font-size: 2em;
+    color: green ;
+    background-color:lightyellow;
+    font-family: cursive;
+    width: 80%;
+}
+
+button:focus {
+    background-color: yellow;
+}
+
+div{
+    text-align: left;
+}
