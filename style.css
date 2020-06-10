@@ -13,6 +13,7 @@ button{
     color: green ;
     background-color:lightyellow;
     font-family: cursive;
+    width: 80%;
 }
 
 button:focus {
