@@ -41,3 +41,13 @@ div {
 a{
     text-decoration: none;
 }
+
+div.bottom {
+    position: fixed;
+    bottom: 1%;
+    width: 98%;
+}
+
+#breakdown {
+    margin: 0%;
+}
