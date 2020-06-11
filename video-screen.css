@@ -37,3 +37,7 @@ body{
 div {
     background-color: lightcyan;
 }
+
+a{
+    text-decoration: none;
+}
