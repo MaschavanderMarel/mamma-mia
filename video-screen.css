@@ -49,7 +49,7 @@ div.bottom {
 }
 
 div.top {
-    position: fixed;
+    position: sticky;
     top: 1%;
     width: 98%;
 }
