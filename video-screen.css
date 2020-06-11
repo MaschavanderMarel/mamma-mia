@@ -48,10 +48,41 @@ div.bottom {
     width: 98%;
 }
 
+div.top {
+    position: fixed;
+    top: 1%;
+    width: 98%;
+}
+
 #breakdown {
     margin: 0%;
 }
 
 #return-button {
     text-align: left;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 90%;
+}
+
+div.song-selection-left {
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 30%;
+    display: inline-block;
+}
+
+div.song-selection-right {
+    margin-left: 20%;
+    margin-top: 5%;
+    width: 30%;
+    display: inline-block;
+}
+
+#song-text {
+    text-align: left;
+    margin: 0%;
 }
