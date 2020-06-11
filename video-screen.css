@@ -26,6 +26,14 @@ p {
 
 }
 
+h1 {
+    text-align: center;
+}
+
 body{
     font-family:cursive ;
+}
+
+div {
+    background-color: lightcyan;
 }
