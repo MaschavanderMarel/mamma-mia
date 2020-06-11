@@ -52,6 +52,7 @@ div.top {
     position: sticky;
     top: 1%;
     width: 98%;
+    background-color: white;
 }
 
 #breakdown {
