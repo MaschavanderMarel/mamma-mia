@@ -102,3 +102,11 @@ div.song-selection-right {
   margin: 8px 4px;
   /*cursor: pointer;*/
 }
+
+.account{
+    text-align: center;
+}
+
+#accountIcon{
+    display: inline-block;
+}
