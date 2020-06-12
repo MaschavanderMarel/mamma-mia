@@ -17,6 +17,7 @@ button {
 video {
     margin: 1%;
     width: 98%;
+    position: static;
 }
 p {
     margin-left: 1%;
@@ -53,6 +54,7 @@ div.top {
     top: 1%;
     width: 98%;
     background-color: white;
+    z-index: 1;
 }
 
 #breakdown {

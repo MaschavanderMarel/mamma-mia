@@ -4,45 +4,17 @@
         <title>Video Screen</title>
         <link rel="stylesheet" href="video-screen.css">
         <meta charset="UTF-8">
+        <script src="video-screen.js"> </script>
+
     </head>
-    <body>
+    <body onload=setStartVideo()>
         <button id="return-button" onclick="document.location = 'index.html'">&#8678 <!-- arrow symbol --></button>
         <br>
         <p>&#x266B; Mamma Mia - ABBA</p>
-        <video id="playingVideo" controls><source src="./videos/ABBA-mamma-mia.mp4" type="video/mp4"></video>
+        <video id="playingVideo"  controls><source src="./videos/ABBA-mamma-mia.mp4" type="video/mp4"></video>
         <br>
         <div class="bottom">
             <button id="breakdown" onclick=jump()>Breakdown</button>
         </div>
-
-        <script>
-            function jump(){
-                var vid = document.getElementById("playingVideo");
-                document.location = 'breakdown.html#30';
-
-                if (vid.currentTime > 30){
-                    document.location = 'breakdown.html#30';
-                }
-                if (vid.currentTime > 60){
-                   document.location = 'breakdown.html#60';
-                }
-                if (vid.currentTime > 120){
-                    document.location = 'breakdown.html#120';
-                }
-                if (vid.currentTime > 150){
-                    document.location = 'breakdown.html#150';
-                }
-                if (vid.currentTime > 180){
-                    document.location = 'breakdown.html#180';
-                }
-                if (vid.currentTime > 210){
-                    document.location = 'breakdown.html#210';
-                }
-                if (vid.currentTime > 240){
-                    document.location = 'breakdown.html#240';
-                }
-
-            }
-        </script>
     </body>
 </html>
