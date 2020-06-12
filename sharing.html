@@ -9,9 +9,29 @@
     </head>
     <body>
         <button id="return-button"  onclick ="location.href= 'settings-screen.html';">&#8678 <!-- arrow symbol --></button>
+        <h1>Sharing Settings</h1>
 
+        <!--Add a check box for record automatically-->
+        <input type="checkbox" name="autoRecord" value="autoRecord">
+        <label for="autoRecord"> Record me automatically while dancing</label><br>
 
+        <div>
+                <h3>Share automatically to: </h3>
+                <br>
+                <input type="checkbox" name="Facebook" value="Facebook">
+                <label for="Facebook"> Facebook</label><br>
+                <input type="checkbox" name="Twitter" value="Twitter">
+                <label for="Twitter"> Twitter</label><br>
+                <input type="checkbox" name="insta" value="insta">
+                <label for="insta"> Instagram</label><br>
 
+        </div>
 
+        <!--Add social media plugins-->
+        <br>
+        <input type="checkbox" name="neverAutoRecord" value="neverAutoRecord">
+        <label for="neverAutoRecord">Never record me (this setting will also disable pop-ups)</label> 
+        <br>
+        <!--check box never record me automatically-->
     </body>
 </html>
