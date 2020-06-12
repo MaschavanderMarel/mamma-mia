@@ -13,6 +13,13 @@
         <p>&#x266B; Mamma Mia - ABBA</p>
         <video id="playingVideo"  controls><source src="./videos/ABBA-mamma-mia.mp4" type="video/mp4"></video>
         <br>
+        <script>
+            var vid = document.getElementById("playingVideo");
+            vid.onended = function () {
+                document.location = 'underConstruction.html';
+        };
+        </script>
+        
         <div class="bottom">
             <button id="breakdown" onclick=jump()>Breakdown</button>
         </div>

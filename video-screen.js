@@ -3,7 +3,7 @@ function jump(){
     var vid = document.getElementById("playingVideo");
     document.location = 'breakdown.html#30';
     localStorage.currentTime = vid.currentTime;
-    alert(localStorage.currentTime);
+    // alert(localStorage.currentTime);
 
     if (vid.currentTime > 30){
         document.location = 'breakdown.html#30';
@@ -30,7 +30,7 @@ function jump(){
 
 function setStartVideo(){
     var vid = document.getElementById("playingVideo");
-    alert(localStorage.currentTime);
+    // alert(localStorage.currentTime);
     vid.currentTime = localStorage.currentTime;
     localStorage.currentTime = 0;
 
