@@ -49,7 +49,7 @@ div.bottom {
 }
 
 div.top {
-    position: sticky;
+    position: fixed; /* I changed it to fixed because sticky did not work well in breakdown sheet. Fixed does seem to work in selection screen as well */
     top: 1%;
     width: 98%;
     background-color: white;
