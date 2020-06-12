@@ -17,6 +17,7 @@ button {
 video {
     margin: 1%;
     width: 98%;
+    position: static;
 }
 p {
     margin-left: 1%;
@@ -49,10 +50,11 @@ div.bottom {
 }
 
 div.top {
-    position: sticky;
+    position: fixed; /* I changed it to fixed because sticky did not work well in breakdown sheet. Fixed does seem to work in selection screen as well */
     top: 1%;
     width: 98%;
     background-color: white;
+    z-index: 1;
 }
 
 #breakdown {
