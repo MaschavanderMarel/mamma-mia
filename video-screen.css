@@ -12,7 +12,7 @@ button {
     width: 98%;
     border-radius: 4px;
     font-family:cursive ;
-
+    font-size: inherit;
 }
 video {
     margin: 1%;
@@ -23,7 +23,7 @@ p {
     margin-left: 1%;
     margin-right: 1%;
     text-align: center;
-    font-family:cursive ;
+    /* font-family:cursive ; */
 
 }
 
@@ -33,6 +33,7 @@ h1 {
 
 body{
     font-family:cursive ;
+    /* font-size: 3em   ; */
 }
 
 div.enclosingBox {
@@ -50,9 +51,9 @@ div.bottom {
 }
 
 div.top {
-    position: fixed; /* I changed it to fixed because sticky did not work well in breakdown sheet. Fixed does seem to work in selection screen as well */
+    position: sticky; 
     top: 1%;
-    width: 98%;
+    /* width: 98%; I removed this because it would leave a non complete white bare in the breakdown screen */
     background-color: white;
     z-index: 1;
 }
