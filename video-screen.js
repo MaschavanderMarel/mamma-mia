@@ -9,9 +9,12 @@ function jump(){
         document.location = 'breakdown.html#30';
     }
     if (vid.currentTime > 60){
-       document.location = 'breakdown.html#60';
-    }
-    if (vid.currentTime > 120){
+        document.location = 'breakdown.html#60';
+     }
+     if (vid.currentTime > 90){
+        document.location = 'breakdown.html#90';
+     }
+      if (vid.currentTime > 120){
         document.location = 'breakdown.html#120';
     }
     if (vid.currentTime > 150){
