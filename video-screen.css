@@ -51,9 +51,9 @@ div.bottom {
 div.top {
     position: sticky; 
     top: 1%;
-    /* width: 98%; I removed this because it would leave a non complete white bare in the breakdown screen */
+    /* width: 98%; I removed this because it would leave a non-full white bar in the breakdown screen. It does not seem to affect the selection screen*/
     background-color: white;
-    z-index: 1;
+    z-index: 1; /* to give priority to the return navigation over the video */
 }
 
 #breakdown {
