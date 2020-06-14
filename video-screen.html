@@ -5,14 +5,27 @@
         <link rel="stylesheet" href="video-screen.css">
         <meta charset="UTF-8">
         <script src="video-screen.js"> </script>
-
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script src="sweetalert2.all.min.js"></script>
     </head>
     <body onload=setStartVideo()>
         <button id="return-button" onclick="document.location = 'index.html'">&#8678 <!-- arrow symbol --></button>
         <br>
-        <p>&#x266B; Mamma Mia - ABBA</p>
+        <p>&#x266B; Where have you been - Rhianna</p>
+        <script>
+            Swal.fire({
+                title: 'Do you want to be recorded?',
+                showCancelButton: true,
+                confirmButtonText: 'Yes!',
+                cancelButtonColour: "#ff0099",
+                cancelButtonText: 'No thanks'
+            })
+        </script>
+
         <video id="playingVideo" onended="document.location = 'underConstruction.html'" controls><source src="./videos/Rihanna where have you been.mp4" type="video/mp4"></video>
-        <br>
+        <br>       
    
         <div class="bottom">
             <button id="breakdown" onclick=jump()>Breakdown</button>
