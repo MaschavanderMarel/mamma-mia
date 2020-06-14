@@ -1,9 +1,4 @@
 
-function ended(){
-    document.location = 'underConstruction.html';
-}
-
-
 function jump(){
     var vid = document.getElementById("playingVideo");
     localStorage.currentTime = vid.currentTime;
