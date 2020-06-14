@@ -119,7 +119,7 @@ input, select {
 
 @media (max-device-width: 420px){
     body{
-        font-size: 3em;
+        font-size: 2em;
     }
 
 }
