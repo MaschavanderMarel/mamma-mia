@@ -11,11 +11,13 @@
         <button id="return-button"  onclick ="location.href= 'settings-screen.html';">&#8678 <!-- arrow symbol --></button>
         <h1>Sharing Settings</h1>
 
-        <!--A check box to record automatically-->
-        <input type="checkbox" name="autoRecord" value="autoRecord">
-        <label for="autoRecord"> Record me automatically while dancing</label><br>
 
         <div class="enclosingBox">
+
+            <!--A check box to record automatically-->
+            <input type="checkbox" name="autoRecord" value="autoRecord">
+            <label for="autoRecord"> Record me automatically while dancing</label><br>
+
                 <h3>Share automatically to: </h3>
                 <!--social media checkboxes-->
                     <input type="checkbox" name="Facebook" value="Facebook">
@@ -29,10 +31,15 @@
 
         
         <br>
-        <!--check box never record me automatically-->
-        <input type="checkbox" name="neverAutoRecord" value="neverAutoRecord">
-        <label for="neverAutoRecord">Never record me (this setting will also disable pop-ups)</label> 
-        <br>
+        <div class="enclosingBox">
+            <br>
+            <!--check box never record me automatically-->
+            <input type="checkbox" name="neverAutoRecord" value="neverAutoRecord">
+            <label for="neverAutoRecord">Never record me (this setting will also disable pop-ups)</label> 
+            <br>
+            <br>
+        </div>
+        
         
     </body>
 </html>
