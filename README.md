@@ -2,7 +2,7 @@
 
 - Use Chrome browser
 - Open index.html
-- Set browser to most narrow display mode for best emulation experience. Alternatively, it is also possible to use developer tools, toggle device toolbar and select for example iphone 6,7,8. However, the embedded video controls are not emulated very well and become too small to be displayed properly, which is not the case on a physical phone.
+- Set browser to most narrow display mode for best emulation experience. This works better than using developer tools, toggle device toolbar and select for example iphone 6,7,8, because the embedded video controls are not emulated very well. They become too small to be displayed properly, which is not the case on a physical phone.
 
 # Usage
 

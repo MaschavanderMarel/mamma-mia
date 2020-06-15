@@ -131,9 +131,9 @@ input, select {
     margin: 5px;
 }
 
-@media (max-device-width: 420px){
+@media (max-device-width: 420px){ /* for mobile device */
     body{
-        font-size: 2em;
+        font-size: 3em;
     }
 
 }
