@@ -1,35 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Finish Dance Screen</title>
-        <link rel="stylesheet" href="video-screen.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="script.js"> </script>
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <button id="return-button"  onclick ="location.href= 'index.html';">&#8678 <!-- arrow symbol --></button>
+
+<head>
+    <title>Finish Dance Screen</title>
+    <link rel="stylesheet" href="video-screen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"> </script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <button id="return-button" onclick="location.href= 'index.html';">&#8678
+        <!-- arrow symbol --></button>
 
 
-        <div class="enclosingBox">
-                <h1>Well done!</h1>
-                <br>
-                
-                <!--TODO:: Put video link in div!-->
-
-                <!--TODO: SHARE BUTTON - add share symbol!-->
-                <button>Share</button>
-                <br><br>
-                <!--TODO CANCEL SHARE BUTTON-->
-                <button>CANCEL</button>
-                <br><br>
-
-        </div>
-
+    <div class="enclosingBox">
+        <h1>Well done!</h1>
         <br>
-        <!--button for returning to song selection-->
-        <button onclick ="location.href= 'dance-selection-flexwrap.html';">Choose a new song</button>
-        <br>
-        
-    </body>
+
+        <!--video of the dance below-->
+        <video id="playingVideo" controls>
+            <source src="./videos/Where Have You Been - Rihanna Dance_360p.mp4" type="video/mp4"></video>
+
+
+        <!--TODO: add share symbol!-->
+        <button><i class="fas fa-share-alt"></i> Share</button>
+        <br><br>
+        <!--TODO CANCEL SHARE BUTTON-->
+        <button>CANCEL</button>
+       
+        <br><br>
+
+    </div>
+
+    <br>
+    <!--button for returning to song selection-->
+    <button onclick="location.href= 'dance-selection-flexwrap.html';">Choose a new song</button>
+    <br>
+
+</body>
+
 </html>
