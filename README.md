@@ -12,3 +12,6 @@
 - When you return to the full video, you return to the same playing position where you left off. For privacy reasons, you are asked again whether you want to record yourself. 
 - When you finish playing the dance video, you are asked to share a video of yourself.
 
+
+# Other
+- Please refer to the implementation planning reflection document for a reflection on the implementation.
