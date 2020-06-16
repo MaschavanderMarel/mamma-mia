@@ -22,4 +22,4 @@ Another change we made was to wrap the song image as well as title in a border s
 
 In the song breakdown screen, we opted to make one video from a time-interval forward rather than break it down into several smaller videos from there. 
 
-Lastly, we only implemented the front-end, with the back-end not existing. We hard-coded only one song to be able to danced to, as well as each streching time having the same video. The "recording" that is showed after you complete a work-out is also fixed, as no actual camera data is captured. The settings in the settings menu are completely clickable and you can interact with them, but they do not change any actual settings or data. 
+Lastly, we only implemented the front-end, with the back-end not existing. We hard-coded only one song to be able to danced to. Each streching time has a distinct video. The "recording" that is showed after you complete a work-out is also fixed, as no actual camera data is captured. The settings in the settings menu are completely clickable and you can interact with them, but they do not change any actual settings or data. 
