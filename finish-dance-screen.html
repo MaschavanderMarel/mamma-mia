@@ -12,33 +12,30 @@
 </head>
 
 <body>
-    <button id="return-button" onclick="location.href= 'index.html';">&#8678
-        <!-- arrow symbol --></button>
+        <a href = "index.html" style ="font-size: 2em" > 
+            &#8678 <!-- arrow symbol -->
+        </a>
 
 
     <div class="enclosingBox">
         <h1>Well done!</h1>
+        <p>Here is your recording</p>
         <br>
 
         <!--video of the dance below-->
         <video id="playingVideo" controls>
-            <source src="./videos/Where Have You Been - Rihanna Dance_360p.mp4" type="video/mp4"></video>
+            <source src="./videos/Where Have You Been - Rihanna Dance_360p.mp4" type="video/mp4" alt="Here is your recording"></video>
 
 
         <!--TODO: add share symbol!-->
-        <button><i class="fas fa-share-alt"></i> Share</button>
+        <button onclick="document.location='underConstruction.html'"><i class="fas fa-share-alt"></i> Share</button>
         <br><br>
-        <!--TODO CANCEL SHARE BUTTON-->
-        <button>CANCEL</button>
-       
+        <!--button for returning to song selection-->
+        <button onclick="location.href= 'index.html';">Choose a new song</button>
         <br><br>
-
+    
     </div>
 
-    <br>
-    <!--button for returning to song selection-->
-    <button onclick="location.href= 'dance-selection-flexwrap.html';">Choose a new song</button>
-    <br>
 
 </body>
 
